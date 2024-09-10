@@ -1,3 +1,0 @@
-@echo off
-echo listening...
-vncviewer -listen 4444
