@@ -1,0 +1,1 @@
+powershell -WindowStyle Hidden -ExecutionPolicy Bypass -File "$env:USERPROFILE\Documents\EmaDev\LOAD.ps1"
